@@ -12,6 +12,7 @@ import inDevelop from './pages/development/inDevelop';
 import auth from './pages/auth/auth';
 import club from './pages/club/club';
 import clubList from './pages/clubList/clubList';
+import competitionList from './pages/competitionList/competitionList';
 
 class App extends Component {
   render() {
@@ -26,6 +27,8 @@ class App extends Component {
         <Route path="/auth" component={auth} />
         <Route exact path="/accaunt" component={account} />
         <Route exact path="/" component={account} />
+
+        <Route exact path="/competitions" component={competitionList} />
 
         <Route exact path="/clubs" component={clubList} />
         <Route exact path="/clubs/:id" component={club} />

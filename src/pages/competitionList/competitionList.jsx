@@ -1,13 +1,12 @@
 import React from 'react'
 
 import navMenu from '../../components/navigation/navMenu';
-import competitions from '../../components/competitions/competitions';
 import listItem from '../../components/listItem/listItem';
-import clubSearchFilter from '../../components/searchFilters/clubSearchFilter';
+import competitionSearchFilter from '../../components/searchFilters/competitionSearchFilter';
 
 import thumb from './app-icon5.png'
 
-export default function clubList() {
+export default function competitionList() {
 	return (
 		<div className="container">
 			<div className="row">
@@ -18,27 +17,23 @@ export default function clubList() {
 							{navMenu()}
 						</div>
 
-						{competitions()}
 					</aside>
 				</div>
 
 				<div className="col-lg-3 order-lg-2">
-					{clubSearchFilter()}
+					{competitionSearchFilter()}
 				</div>
 
 				<div className="col-lg-5 order-lg-1">
 					<div className="row">
 						{Array(5).fill().map((_, index) => <div key={index} className="col-12">
 							{listItem({
-								title: 'ФК Уралмаш',
-								link: '/clubs/1',
+								title: 'Турнир за титул чемпиона',
+								link: '/competitions/1',
 								logo: thumb,
 								descriptionItems: [
-									'Район: центр',
-									'Численность: 10',
-									'Свободных мест: 2'
+									'Дата: 12.12.12',
 								]
-
 							})}
 						</div>)}
 

@@ -20,7 +20,7 @@ export default function navMenu() {
         </NavLink>
 			</li>
 			<li className="c-menu__item">
-				<NavLink activeClassName="is-active" className="c-menu__link" to="/development">
+				<NavLink activeClassName="is-active" className="c-menu__link" to="/competitions">
 					<i className="c-menu__icon fa fa-newspaper-o"></i>Соревнования
         </NavLink>
 			</li>
