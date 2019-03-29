@@ -9,17 +9,20 @@ import header from './components/header/header';
 // pages
 import account from './pages/account/account';
 import inDevelop from './pages/development/inDevelop';
+import auth from './pages/auth/auth';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <Switch>
-          <Route path="/development" />
+          <Route exact path="/development" />
+          <Route path="/auth" />
           <Route component={header} />
         </Switch>
 
-        <Route exact path="/" component={account} />
+        <Route path="/auth" component={auth} />
+        <Route exact path="/accaunt" component={account} />
         <Route exact path="/development" component={inDevelop} />
       </Router>
     );

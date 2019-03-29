@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 
 import headerSearch from './headerSearch'
 
-import logo from './logo.png'
-
 import headerNotifications from './headerNotifications';
 import headerProfile from './headerProfile';
+import logo from '../logo/logo';
 
 export default function header() {
 	return (
@@ -15,7 +14,7 @@ export default function header() {
 				<div className="c-navbar" style={{ borderBottom: 'none' }}>
 
 					<Link className="c-navbar__brand" to="/">
-						<img src={logo} alt="Logo" />
+						{logo()}
 					</Link>
 
 					<div className="u-hidden-down@tablet u-mr-small">
