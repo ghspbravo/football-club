@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function accountCalendar() {
+export default function calendar() {
 	return (
 		<div className="c-calendar u-text-xsmall">
 			<nav className="c-calendar__nav">

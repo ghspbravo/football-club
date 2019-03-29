@@ -8,8 +8,8 @@ export default function accountTopInfo() {
 
 			<div className="row no-gutters">
 				<div className="o-media u-mr-small">
-					<div class="c-avatar c-avatar--xlarge">
-						<img class="c-avatar__img" src={avatar} alt="avatar" />
+					<div className="c-avatar c-avatar--xlarge">
+						<img className="c-avatar__img" src={avatar} alt="avatar" />
 					</div>
 				</div>
 

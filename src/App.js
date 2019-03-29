@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import './app.css';
 
@@ -10,6 +10,7 @@ import header from './components/header/header';
 import account from './pages/account/account';
 import inDevelop from './pages/development/inDevelop';
 import auth from './pages/auth/auth';
+import club from './pages/club/club';
 
 class App extends Component {
   render() {
@@ -23,6 +24,9 @@ class App extends Component {
 
         <Route path="/auth" component={auth} />
         <Route exact path="/accaunt" component={account} />
+
+        <Route path="/club/:id" component={club} />
+
         <Route exact path="/development" component={inDevelop} />
       </Router>
     );

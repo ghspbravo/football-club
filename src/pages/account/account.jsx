@@ -4,11 +4,11 @@ import accountContacts from './accountContacts';
 import accountFeed from './accountFeed';
 
 import avatar from './avatar.jpg'
-import accountCompetitions from './accountCompetitions';
 import accountTables from './accountTables';
 import accountTopInfo from './accountTopInfo';
-import accountCalendar from './accountCalendar';
 import accountLists from './accountLists';
+import competitions from '../../components/competitions/competitions';
+import calendar from '../../components/calendar/calendar';
 
 export default function account() {
 	return (
@@ -21,7 +21,7 @@ export default function account() {
 							{navMenu()}
 						</div>
 
-						{accountCompetitions()}
+						{competitions()}
 
 					</aside>
 				</div>
@@ -61,7 +61,7 @@ export default function account() {
 						<img style={{width: '100%', height: '100%', objectFit: 'cover'}} src={avatar} alt="User's profile cover" />
 					</div>
 
-					{accountCalendar()}
+					{calendar()}
 
 				</div>
 			</div>

@@ -9,11 +9,11 @@ export default function accountTables() {
 	return (
 		<div className="c-tabs">
 			<ul className="c-tabs__list nav nav-tabs" id="myTab" role="tablist">
-				<li><a className="c-tabs__link active" id="nav-table-tab" data-toggle="tab" href="#nav-table" role="tab" aria-controls="nav-table" aria-selected="true">Все новости</a></li>
+				<li><a className="c-tabs__link active" id="nav-table-tab" data-toggle="tab" href="#nav-table" role="tab" aria-controls="nav-table" aria-selected="true">Таблица</a></li>
 
-				<li><a className="c-tabs__link" id="nav-profile-tab" data-toggle="tab" href="#nav-table" role="tab" aria-controls="nav-profile" aria-selected="false">Моя лента</a></li>
+				<li><a className="c-tabs__link" id="nav-profile-tab" data-toggle="tab" href="#nav-table" role="tab" aria-controls="nav-profile" aria-selected="false">Шахматка</a></li>
 
-				<li><a className="c-tabs__link" id="nav-contact-tab" data-toggle="tab" href="#nav-table" role="tab" aria-controls="nav-contact" aria-selected="false">Клубы</a></li>
+				<li><a className="c-tabs__link" id="nav-contact-tab" data-toggle="tab" href="#nav-table" role="tab" aria-controls="nav-contact" aria-selected="false">Расписание</a></li>
 			</ul>
 			<div className="c-tabs__content tab-content" id="nav-tabContent">
 

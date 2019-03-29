@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import competitionThumb from './feed6.jpg'
 
-export default function accountCompetitions() {
+export default function competitions() {
 	return (
 		<div className="c-messages" style={{ backgroundColor: 'white', height: 'auto' }}>
 			<div className="u-mb-medium u-ml-medium u-mt-medium">
