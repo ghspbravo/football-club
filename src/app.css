@@ -1,0 +1,17 @@
+.dataTables_paginate {
+	float: none;
+	justify-content: center;
+}
+
+.dataTable thead .sorting:before, .dataTable thead .sorting_asc:before, .dataTable thead .sorting_desc:before,
+.dataTable thead .sorting:after, .dataTable thead .sorting_asc:after, .dataTable thead .sorting_desc:after {
+	right: -10px;
+}
+
+.c-calendar__date {
+	padding: 0.525rem;
+}
+
+.c-calendar__picker {
+	padding: 15px;
+}

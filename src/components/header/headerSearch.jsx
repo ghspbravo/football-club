@@ -7,7 +7,7 @@ export default function headerSearch() {
 				<i className="fa fa-search"></i>
 			</span>
 
-			<label className="u-hidden-visually" for="navbar-search">Seach</label>
+			<label className="u-hidden-visually" htmlFor="navbar-search">Seach</label>
 			<input className="c-input" id="navbar-search" type="text" placeholder="Search" />
 		</div>
 	)
