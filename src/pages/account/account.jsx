@@ -8,6 +8,7 @@ import accountCompetitions from './accountCompetitions';
 import accountTables from './accountTables';
 import accountTopInfo from './accountTopInfo';
 import accountCalendar from './accountCalendar';
+import accountLists from './accountLists';
 
 export default function account() {
 	return (
@@ -34,6 +35,14 @@ export default function account() {
 
 						<div className="u-mb-medium">
 							{accountContacts()}
+						</div>
+
+						<div className="u-mb-medium">
+							{accountLists('Спортивная карьера')}
+						</div>
+
+						<div className="u-mb-medium">
+							{accountLists('Состоит в клубах')}
 						</div>
 
 						<div className="u-mb-medium">

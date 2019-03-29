@@ -14,7 +14,7 @@ export default function headerProfile() {
 			<div className="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
 				<Link className="c-dropdown__item dropdown-item" to="/development">Настройки</Link>
 				<Link className="c-dropdown__item dropdown-item" to="/development">Помощь</Link>
-				<Link className="c-dropdown__item dropdown-item" to="/development">Выход</Link>
+				<Link className="c-dropdown__item dropdown-item" to="/auth/login">Выход</Link>
 			</div>
 		</div>
 	)
