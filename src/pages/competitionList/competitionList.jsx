@@ -29,7 +29,7 @@ export default function competitionList() {
 						{Array(5).fill().map((_, index) => <div key={index} className="col-12">
 							{listItem({
 								title: 'Турнир за титул чемпиона',
-								link: '/competitions/1',
+								link: '/development',
 								logo: thumb,
 								descriptionItems: [
 									'Дата: 12.12.12',

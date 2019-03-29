@@ -10,7 +10,7 @@ export default function navMenu() {
 				</NavLink>
 			</li>
 			<li className="c-menu__item">
-				<NavLink activeClassName="is-active" className="c-menu__link" to="/development">
+				<NavLink activeClassName="is-active" className="c-menu__link" to="/calendar">
 					<i className="c-menu__icon fa fa-heart-o"></i>Календарь
         </NavLink>
 			</li>

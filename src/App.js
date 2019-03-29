@@ -13,6 +13,7 @@ import auth from './pages/auth/auth';
 import club from './pages/club/club';
 import clubList from './pages/clubList/clubList';
 import competitionList from './pages/competitionList/competitionList';
+import calendar from './pages/calendar/calendar';
 
 class App extends Component {
   render() {
@@ -27,6 +28,8 @@ class App extends Component {
         <Route path="/auth" component={auth} />
         <Route exact path="/accaunt" component={account} />
         <Route exact path="/" component={account} />
+        
+        <Route exact path="/calendar" component={calendar} />
 
         <Route exact path="/competitions" component={competitionList} />
 
