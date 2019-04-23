@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "0437afcf3695d6e4c4e5",
-    "url": "/football-club/static/css/main.420fbaf0.chunk.css"
+    "revision": "658c3e11e2ab33c3873d",
+    "url": "/football-club/static/css/main.397a2b5d.chunk.css"
   },
   {
-    "revision": "0437afcf3695d6e4c4e5",
-    "url": "/football-club/static/js/main.d7400237.chunk.js"
+    "revision": "658c3e11e2ab33c3873d",
+    "url": "/football-club/static/js/main.07c25822.chunk.js"
   },
   {
     "revision": "b486ee6cff92e8de1d74",
     "url": "/football-club/static/js/runtime~main.cdd81b9b.js"
   },
   {
-    "revision": "0a4e1f9dabb5e4d54227",
-    "url": "/football-club/static/js/2.32ec1387.chunk.js"
+    "revision": "cdc144bf07955ab60c99",
+    "url": "/football-club/static/js/2.2f3b967c.chunk.js"
   },
   {
     "revision": "6c4b54832c1260aba40b3a2b5cd39bd7",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/football-club/static/media/app-icon5.9fc4b0f4.png"
   },
   {
-    "revision": "c3b8afdda496dce8d69e3ab85e0b372a",
+    "revision": "2f2d7dfcd33834d633976f129a4634b0",
     "url": "/football-club/index.html"
   }
 ];
