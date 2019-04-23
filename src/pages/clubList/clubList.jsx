@@ -11,7 +11,7 @@ export default function clubList() {
 	return (
 		<div className="container">
 			<div className="row">
-				<div className="col-xl-4 u-hidden-down@wide">
+				<div className="col-xl-3 u-hidden-down@wide">
 					<aside className="c-menu u-ml-medium">
 
 						<div className="u-mb-medium">
@@ -26,7 +26,7 @@ export default function clubList() {
 					{clubSearchFilter()}
 				</div>
 
-				<div className="col-lg-5 order-lg-1">
+				<div className="col-lg-6 order-lg-1">
 					<div className="row">
 						{Array(5).fill().map((_, index) => <div key={index} className="col-12">
 							{listItem({

@@ -10,7 +10,7 @@ export default function calendar() {
 	return (
 		<div className="container">
 			<div className="row">
-				<div className="col-xl-4 u-hidden-down@wide">
+				<div className="col-xl-3 u-hidden-down@wide">
 					<aside className="c-menu u-ml-medium">
 
 						<div className="u-mb-medium">
@@ -21,7 +21,7 @@ export default function calendar() {
 					</aside>
 				</div>
 
-				<div className="col-12 col-xl-8">
+				<div className="col-12 col-xl-9">
 					<main>
 
 						<div className="fc-header">

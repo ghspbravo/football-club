@@ -9,7 +9,7 @@ import clubLogo from './project-card6.jpg'
 import clubGallery from './clubGallery';
 import clubTopInfo from './clubTopInfo';
 import personPreview from '../../components/person/personPreview';
-export default function club() {
+export default function club(router) {
 	return (
 		<div className="container">
 			<div className="row">
@@ -26,6 +26,9 @@ export default function club() {
 
 				<div className="col-md-7 col-xl-5">
 					<main>
+						<div className="u-mb-small">
+							<button className="no-style link" onClick={router.history.goBack}><i class="fa fa-angle-double-left"></i> Назад</button>
+						</div>
 
 						<div className="u-mb-medium">
 							{clubTopInfo()}

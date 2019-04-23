@@ -9,7 +9,7 @@ export default function competitions() {
 			<div className="u-mb-medium u-ml-medium u-mt-medium">
 				<h3>Соревнования</h3>
 			</div>
-			{Array(10).fill().map((_, index) => <Link key={index} className="c-message" to="/development">
+			{Array(10).fill().map((_, index) => <Link key={index} className="c-message" to="/competitions/1">
 				<div className="o-media">
 					<div className="o-media__img u-mr-small">
 						<div className="c-avatar c-avatar--small">

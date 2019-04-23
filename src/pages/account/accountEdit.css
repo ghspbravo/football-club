@@ -1,0 +1,13 @@
+/* .edit-sidenav {} */
+
+/* .edit-sidenav__item {} */
+
+.edit-sidenav__link {
+	color: #2ea1f8;
+}
+
+.edit-sidenav__link.is-active,
+.edit-sidenav__link:hover {
+	color: black;
+	background: lightgray;
+}

@@ -21,12 +21,12 @@ export default function item(content) {
 				</div>
 			</div>
 
-			<ul className="c-search-result__actionlist">
+			{/* <ul className="c-search-result__actionlist">
 				<li className="c-search-result__action">
 					<button className="c-btn c-btn--success c-btn--fullwidth"><i className="fa fa-envelope-o"></i> подписаться</button>
 				</li>
 
-			</ul>
+			</ul> */}
 
 		</Link>
 	)

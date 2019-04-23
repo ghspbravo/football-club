@@ -1,3 +1,15 @@
+button.no-style {
+	background: none;
+	font-size: inherit;
+	border: none;
+	color: inherit;
+}
+
+.link:hover,
+.link:focus {
+	color: #2ea1f8;
+}
+
 .dataTables_paginate {
 	float: none;
 	justify-content: center;

@@ -8,9 +8,9 @@ import accountTables from './accountTables';
 import accountTopInfo from './accountTopInfo';
 import accountLists from './accountLists';
 import competitions from '../../components/competitions/competitions';
-import calendar from '../../components/calendar/calendar';
+import participants from '../../components/participants/participants';
 
-export default function account() {
+export default function user() {
 	return (
 		<div className="container">
 			<div className="row">
@@ -57,25 +57,14 @@ export default function account() {
 				</div>
 
 				<div className="col-md-5 col-xl-3 u-mb-medium u-hidden-down@tablet">
-					<div className="u-mb-medium" style={{ height: '199px' }}>
-						<img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src={avatar} alt="User's profile cover" />
+					<div className="u-mb-medium" style={{height: '199px'}}>
+						<img style={{width: '100%', height: '100%', objectFit: 'cover'}} src={avatar} alt="User's profile cover" />
 					</div>
 
-					{calendar()}
-
-					<div className="u-mt-medium">
-						<article class="c-event">
-							<div class="c-event__img">
-								<img src="https://picsum.photos/300/200" alt="San Francisco's Buildings" />
-								<span class="c-event__status">Тренировка</span>
-							</div>
-							<div class="c-event__meta">
-								<h3 class="c-event__title">Тренировка на стадионе
-            <span class="c-event__place">Сегодня, 14:00</span>
-								</h3>
-							</div>
-						</article>
+					<div>
+						{participants()}
 					</div>
+
 				</div>
 			</div>
 		</div>

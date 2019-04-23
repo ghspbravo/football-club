@@ -5,7 +5,7 @@ export default function navMenu() {
 	return (
 		<ul>
 			<li className="c-menu__item">
-				<NavLink activeClassName="is-active" className="c-menu__link" to="/accaunt">
+				<NavLink activeClassName="is-active" className="c-menu__link" to="/profile">
 					<i className="fa fa-trophy u-mr-xsmall"></i>Моя страница
 				</NavLink>
 			</li>

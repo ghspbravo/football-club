@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import avatar from './avatar.jpg'
 import feed_6 from './feed6.jpg'
@@ -10,15 +11,15 @@ export default function feed() {
 			<li className="c-stream-item o-media">
 
 				<div className="o-media__img u-mr-small">
-					<div className="c-avatar c-avatar--medium">
+					<Link to='/user/1' className="c-avatar c-avatar--medium">
 						<img className="c-avatar__img" src={avatar} alt="Adam's face" />
-					</div>
+					</Link>
 				</div>
 
 				<div className="c-stream-item__content o-media__body">
 					<div className="c-stream-item__header">
-						<a className="c-stream-item__name" href="/">Mollie Richardson<span className="c-stream-item__username">@Mollie</span>
-						</a>
+						<Link to='/user/1' className="c-stream-item__name">Mollie Richardson<span className="c-stream-item__username">@Mollie</span>
+						</Link>
 						<span className="c-stream-item__time">3m</span>
 					</div>
 

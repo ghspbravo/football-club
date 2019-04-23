@@ -4,7 +4,7 @@ export default function accountTables() {
 
 	useEffect(() => {
 		window.$("#datatable").DataTable({searching:!1,info:!1,lengthChange:!1,order:[],ordering:!0,columnDefs:[{orderable:!1,targets:"no-sort"}]})
-	})
+	}, [])
 
 	return (
 		<div className="c-tabs">
